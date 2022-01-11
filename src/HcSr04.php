@@ -36,7 +36,7 @@ final class HcSr04 extends AbstractSensor {
   private int $triggerPin;
   private int $echoPin;
   private int $triggerReset = self::TRIGGER_RPD;
-  private int $triggerApd = self::TRIGGER_APD;
+  private int $triggerActivation = self::TRIGGER_APD;
   private int $echoTimeout = self::ECHO_TIMEOUT;
 
   protected string $name = 'HC-SR04';
